@@ -2,3 +2,11 @@ scripts_priv/
 CLLEAR/
 slides/*
 !slides/STEP_2025_garcia.pdf
+# Ignore everything in output directory
+/slides/*
+
+# But not the PDF files
+!/slides/**/*.pdf
+
+# Make sure output directory itself is not ignored
+!/slides/
