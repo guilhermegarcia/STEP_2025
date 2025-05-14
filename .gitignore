@@ -6,7 +6,7 @@ slides/*
 /slides/*
 
 # But not the PDF files
-!/slides/**/*.pdf
+!/slides/STEP_2025_garcia.pdf
 
 # Make sure output directory itself is not ignored
 !/slides/
