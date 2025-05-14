@@ -1,0 +1,76 @@
+\begin{thebibliography}{13}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\expandafter\ifx\csname fonteauteurs\endcsname\relax
+\def\fonteauteurs{\scshape}\fi
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{{\tt #1}}%
+    \message{You should include the url package}\fi
+
+\bibitem[Anderson(2021)]{Anderson2021}
+Stephen~R. \bgroup\fonteauteurs\bgroup Anderson\egroup\egroup{} :
+\newblock {\em {Phonology} in the {Twentieth} {Century}}.
+\newblock Num{\'e}ro ~5 \emph{in} History and Philosophy of the Language Sciences. Language Science Press, Berlin, 2021.
+
+\bibitem[Boersma(1997)]{boersma1997gla}
+Paul \bgroup\fonteauteurs\bgroup Boersma\egroup\egroup{} :
+\newblock How we learn variation, optionality, and probability.
+\newblock \emph{In} {\em Proceedings of the Institute of Phonetic Sciences of the University of Amsterdam}, volume~21, pages 43--58. Amsterdam, 1997.
+
+\bibitem[Chomsky et Halle(1968)]{chomsky1968spe}
+N.~\bgroup\fonteauteurs\bgroup Chomsky\egroup\egroup{} et M.~\bgroup\fonteauteurs\bgroup Halle\egroup\egroup{} :
+\newblock {\em {The sound pattern of {E}nglish}}.
+\newblock Harper \& Row, New York, 1968.
+
+\bibitem[Durand et Lyche(2001)]{durand2001regles}
+Jacques \bgroup\fonteauteurs\bgroup Durand\egroup\egroup{} et Chantal \bgroup\fonteauteurs\bgroup Lyche\egroup\egroup{} :
+\newblock Des r{\`e}gles aux contraintes en phonologie g{\'e}n{\'e}rative.
+\newblock {\em Revue qu{\'e}b{\'e}coise de linguistique}, 30\penalty0 (1)\string:\penalty500\relax 91--154, 2001.
+
+\bibitem[Goldsmith(1976)]{Goldsmith1976a}
+John \bgroup\fonteauteurs\bgroup Goldsmith\egroup\egroup{} :
+\newblock {\em Autosegmental phonology}.
+\newblock Th{\`e}se de doctorat, Massachusetts Institute of Technology, Cambridge, MA, 1976.
+\newblock Published by Garland Press, New York, 1979.
+
+\bibitem[Goldwater et Johnson(2003)]{goldwater2003learning}
+Sharon \bgroup\fonteauteurs\bgroup Goldwater\egroup\egroup{} et Mark \bgroup\fonteauteurs\bgroup Johnson\egroup\egroup{} :
+\newblock Learning {OT} constraint rankings using a {M}aximum {E}ntropy model.
+\newblock \emph{In} {\em Proceedings of the {S}tockholm {W}orkshop on {V}ariation within {O}ptimality {T}heory}, pages 111--120, 2003.
+
+\bibitem[Kiparsky(1982)]{Kiparsky1982a}
+Paul \bgroup\fonteauteurs\bgroup Kiparsky\egroup\egroup{} :
+\newblock From cyclic phonology to lexical phonology.
+\newblock {\em The structure of phonological representations}, 1\string:\penalty500\relax 131--175, 1982.
+
+\bibitem[McCarthy(2011)]{mccarthy2011doing}
+John~J \bgroup\fonteauteurs\bgroup McCarthy\egroup\egroup{} :
+\newblock {\em Doing optimality {T}heory: applying theory to data}.
+\newblock John Wiley \& Sons, 2011.
+
+\bibitem[Paradis(1987)]{paradis1987}
+Carole \bgroup\fonteauteurs\bgroup Paradis\egroup\egroup{} :
+\newblock On constraints and repair strategies.
+\newblock {\em The Linguistic Review}, 6\string:\penalty500\relax 71--97, 1987.
+
+\bibitem[Pierrehumbert(2022)]{pierrehumbert2022}
+Janet \bgroup\fonteauteurs\bgroup Pierrehumbert\egroup\egroup{} :
+\newblock More than seventy years of probabilistic phonology.
+\newblock \emph{In} Elan \bgroup\fonteauteurs\bgroup Dresher\egroup\egroup{} et Harry van~der \bgroup\fonteauteurs\bgroup Hulst\egroup\egroup{}, {\'e}diteurs :  {\em The Oxford History of Phonology}, pages 639--655. Oxford, 2022.
+
+\bibitem[Prince et Smolensky(1993)]{prince1993optimality}
+Alan \bgroup\fonteauteurs\bgroup Prince\egroup\egroup{} et Paul \bgroup\fonteauteurs\bgroup Smolensky\egroup\egroup{} :
+\newblock {\em {O}ptimality {T}heory: constraint interaction in Generative Grammar}.
+\newblock Blackwell, Oxford, 1993.
+\newblock A revision of the 1993 technical report was published in 2004 (Rutgers University Center for Cognitive Science). Available on Rutgers Optimality Archive, ROA-537.
+
+\bibitem[Shannon(1948)]{shannon1948mathematical}
+Claude~Elwood \bgroup\fonteauteurs\bgroup Shannon\egroup\egroup{} :
+\newblock A mathematical theory of communication.
+\newblock {\em Bell System Technical Journal}, pages 379--423, 1948.
+
+\bibitem[Zsiga(2013)]{zsiga2013sounds}
+Elizabeth~C \bgroup\fonteauteurs\bgroup Zsiga\egroup\egroup{} :
+\newblock {\em The sounds of language: An introduction to phonetics and phonology}.
+\newblock John Wiley \& Sons, Chichester, UK, 2013.
+
+\end{thebibliography}

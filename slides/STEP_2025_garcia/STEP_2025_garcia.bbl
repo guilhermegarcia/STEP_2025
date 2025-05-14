@@ -1,0 +1,8 @@
+\begin{thebibliography}{}
+
+\bibitem[Wickham et~al., 2019]{tidyverse}
+Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L.~D., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T.~L., Miller, E., Bache, S.~M., Müller, K., Ooms, J., Robinson, D., Seidel, D.~P., Spinu, V., Takahashi, K., Vaughan, D., Wilke, C., Woo, K., and Yutani, H. (2019).
+\newblock Welcome to the {tidyverse}.
+\newblock {\em Journal of Open Source Software}, 4(43):1686.
+
+\end{thebibliography}
