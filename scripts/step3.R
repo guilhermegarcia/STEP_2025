@@ -23,6 +23,7 @@ library(emmeans)
 
 # NOTE: How about multiple comparisons...?
 
+# NOTE: Part 2.1: Model predictions
 
 # NOTE: Part 3: Extras
 # plotly for interactive plots

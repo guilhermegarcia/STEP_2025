@@ -9,7 +9,7 @@
 - [ ] Main `geoms`
   - [ ] scope: local vs global
   - [ ] multiple variables
-- [ ] Piped operations with `ggplot`
+- [ ] Piped operations with `ggplot2`
 - [ ] Practice
 
 ## Day 2
@@ -17,7 +17,7 @@
 - [ ] Data cleaning
 - [ ] W2L transformation
 - [ ] Functions across cols
-- [ ] Percentages in `ggplot`
+- [ ] Percentages in `ggplot2`
 - [ ] Practice
 - [ ] Aesthetics
   - [ ] Colours
@@ -33,6 +33,7 @@
 
 - [ ] Plotting individual var
 - [ ] Visualizing models
+- [ ] Plotting model predictions
 - [ ] Extra packages:
   - [ ] `plotly`
   - [ ] `patchwork`
