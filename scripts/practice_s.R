@@ -54,7 +54,7 @@
 # A:
 
 ### 11. Percent change
-# Q: Create a new column for percent gain: `(Post - Pre) / Pre * 100`. Visualize it by `L1`.
+# Q: Create a new column for percent gain. Visualize it by `L1`.
 # A:
 
 
