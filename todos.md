@@ -26,7 +26,7 @@
   - [ ] Sizes
   - [ ] Labels
   - [ ] `coord_flip()`
-  - [ ] Markdown
+  - [ ] Snippets and Markdown
 - [ ] Practice
   - [ ] `geom_label()`
 
