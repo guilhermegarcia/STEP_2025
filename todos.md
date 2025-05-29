@@ -2,15 +2,15 @@
 
 ## Day 1
 
-- [ ] Intro
-- [ ] Survey
-- [ ] Practice
-- [ ] Summarizing key points
-- [ ] Main `geoms`
-  - [ ] scope: local vs global
-  - [ ] multiple variables
-- [ ] Piped operations with `ggplot2`
-- [ ] Practice
+- [x] Intro
+- [x] Survey
+- [x] Practice
+- [x] Summarizing key points
+- [x] Main `geoms`
+  - [x] scope: local vs global
+  - [x] multiple variables
+- [x] Piped operations with `ggplot2`
+- [x] Practice
 
 ## Day 2
 
