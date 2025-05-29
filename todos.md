@@ -14,11 +14,12 @@
 
 ## Day 2
 
+- [ ] Review
 - [ ] Data cleaning
 - [ ] W2L transformation
 - [ ] Functions across cols
-- [ ] Percentages in `ggplot2`
 - [ ] Practice
+- [ ] Percentages in `ggplot2`
 - [ ] Aesthetics
   - [ ] Colours
   - [ ] Fonts
