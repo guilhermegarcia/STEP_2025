@@ -14,21 +14,21 @@
 
 ## Day 2
 
-- [ ] Review
-- [ ] Data cleaning
-- [ ] W2L transformation
-- [ ] Functions across cols
-- [ ] Practice
-- [ ] Percentages in `ggplot2`
-- [ ] Aesthetics
-  - [ ] Colours
-  - [ ] Fonts
-  - [ ] Sizes
-  - [ ] Labels
-  - [ ] `coord_flip()`
+- [x] Review
+- [x] Data cleaning
+- [x] W2L transformation
+- [x] Functions across cols
+- [x] Practice
+- [x] Percentages in `ggplot2`
+- [-] Aesthetics
+  - [x] Colours
+  - [x] Fonts
+  - [x] Sizes
+  - [x] Labels
+  - [x] `coord_flip()`
   - [ ] Snippets and Markdown
-- [ ] Practice
-  - [ ] `geom_label()`
+- [x] Practice
+  - [x] `geom_label()`
 
 ## Day 3
 

@@ -1,23 +1,70 @@
 # NOTE: Practice script for days 1, 2, 3
 # Load phonetique.RData using load()
+library(tidyverse)
+
+load("data/phonetique.RData")
+
+phon
 
 # NOTE: PART 0 — Descriptive Summaries
 
 ### 1. Basic distribution
 # Q: What is the average number of hours of instruction across the two Conditions?
 # A:
+phon |>
+  summarize(
+    Mean = mean(Hours),
+    .by = Condition
+  )
 
+print("")
 ### 2. Group comparison
 # Q: What is the mean gain score by L1? Sort from high to low gain.
 # A:
 
+phon <- phon |>
+  mutate(
+    Gain = Post - Pre
+  )
+
+phon |>
+  summarize(
+    Mean_Gain = mean(Gain),
+    .by = L1
+  ) |>
+  arrange(-Mean_Gain)
+
+phon
+
+
+
+
 ### 3. Most effective condition
 # Q: Which group shows the largest average improvement? Consider combining L1 and Condition.
 # A:
+phon |>
+  summarize(
+    Mean_Gain = mean(Gain),
+    .by = c(L1, Condition)
+  ) |>
+  arrange(-Mean_Gain)
+
+phon
+
 
 ### 4. Individual case
 # Q: Who is the learner with the largest improvement? How about the smallest?
 # A:
+
+phon |>
+  summarize(
+    Mean_Gain = mean(Gain),
+    .by = ID
+  ) |>
+  arrange(-Mean_Gain) |>
+  slice(1, n())
+
+phon
 
 ## NOTE: PART 1 — Geoms and Variable Relationships
 
