@@ -194,6 +194,3 @@ snippet toFactor
 	
 snippet colors
 	 <span style="color:{colours["X"]}">**X**</span> 
-	
-snippet PSL
-	load("/Users/gdgarcia/Dropbox/Website/quarto_website/PSL/psl.RData")
