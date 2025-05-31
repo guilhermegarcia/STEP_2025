@@ -20,24 +20,24 @@
 - [x] Functions across cols
 - [x] Practice
 - [x] Percentages in `ggplot2`
-- [-] Aesthetics
+- [x] Aesthetics
   - [x] Colours
   - [x] Fonts
   - [x] Sizes
   - [x] Labels
   - [x] `coord_flip()`
-  - [ ] Snippets and Markdown
+  - [x] Snippets and Markdown
 - [x] Practice
   - [x] `geom_label()`
 
 ## Day 3
 
-- [ ] Plotting individual var
-- [ ] Visualizing models
-- [ ] Plotting model predictions
-- [ ] Extra packages:
-  - [ ] `plotly`
-  - [ ] `patchwork`
-  - [ ] `ggdist`
-- [ ] Saving plots
-- [ ] Intro to Quarto
+- [x] Plotting individual var
+- [x] Visualizing models
+- [x] Plotting model predictions
+- [x] Extra packages:
+  - [x] `plotly`
+  - [x] `patchwork`
+  - [x] `ggdist`
+- [x] Saving plots
+- [x] Intro to Quarto

@@ -1,0 +1,111 @@
+---
+title: "Quarto Demo"
+author: "Guilherme D. Garcia"
+date: today
+lang: fr
+format: 
+  html:
+    lightbox: true
+---
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: false
+
+library(tidyverse)
+
+d <- read_csv("../data/danish-1.csv")
+```
+
+# Note on formats
+
+In general, Quarto will do `pdf`, `html` and `docx` quite smoothly. But if you figure has a specific font family (here, Futura), you won't be able to generate the PDF. There's way around it: you need to add a chunk of code early on in the document in which you load the `extrafont` package (as well as its fonts). It's beyond our goals here, so if you do plan to have PDFs and HTMLs, just use the default font (i.e., don't set `base_family` inside your theme). Finally, for PDFs to compile, you need to have LaTeX installed (or `tinytex`). If you use Posit, that will be easier to do if you don't already have it. Alternatively, use `typst` as your format: this will also produce a PDF file, but it won't use LaTex.
+
+# Introduction
+
+In @fig-myfig, you can see nice colours. We have `r length(levels(as.factor(d$Affix)))` affixes, but the figure only shows a subset of them.
+
+
+```{r}
+#| message: false
+#| warning: false
+#| echo: false
+#| fig-cap: "A figure in our document"
+#| fig-width: 6
+#| fig-height: 4
+#| fig-dpi: 500
+#| out-width: 80%
+#| label: fig-myfig
+
+ggplot(
+  data = d |>
+    filter(
+      Participant %in% c("Part_5", "Part_15", "Part_8"),
+      Affix %in% c("bar", "ede")
+    ),
+  aes(
+    x = Affix |> fct_reorder(RT, .fun = mean),
+    y = RT,
+    color = Participant
+  )
+) +
+  stat_summary(aes(group = Participant),
+    geom = "line",
+    linetype = "dashed",
+    alpha = 0.5,
+    position = position_dodge(width = 0.7)
+  ) +
+  stat_summary(
+    fun.data = mean_cl_normal,
+    geom = "errorbar", width = 0,
+    position = position_dodge(width = 0.7),
+    linewidth = 3,
+    # color = "slateblue",
+    alpha = 0.2
+  ) +
+  stat_summary(position = position_dodge(width = 0.7)) +
+  geom_label(
+    data = d |>
+      filter(
+        Participant %in% c("Part_5", "Part_15", "Part_8"),
+        Affix %in% c("bar")
+      ) |>
+      summarize(
+        RT = mean(RT),
+        .by = c(Affix, Participant)
+      ),
+    aes(label = Participant),
+    position = position_dodge(width = 0.7),
+    # NOTE: Or you can use position_nudge(x = ...) if
+    # you prefer to have the labels *next* to the means
+    # family = "Futura"
+  ) +
+  theme_classic(
+    base_size = 13,
+    # base_family = "Futura"
+  ) +
+  theme(
+    legend.position = "none"
+  ) +
+  labs(
+    x = "Affix",
+    y = "Reaction time (ms)",
+    title = "Danish data"
+  ) +
+  # NOTE: If you want to change colours:
+  scale_color_manual(
+    values = c("black", "darkorange2", "slateblue")
+  )
+
+
+```
+
+
+
+
+
+
+
+
+
